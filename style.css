@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+  body {
+    font-family: "Lato", Helvetica, sans-serif;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  div.contenedor {
+    min-width: 80%;
+    margin: 0px 10%;
+    /*background: orange;*/
+  }
+
+  header {
+    background: rgba(65, 45, 65, 0.7);
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-size: 0.9em;
+    color: white;
+  }
+
+  header h1 {
+    margin: 0px 0px auto 0px;
+  }
+
+  header h2 {
+    font-size: 1em;
+  }
+
+  figcaption {
+    transition-duration: 0.5s;
+  }
+
+  figure:hover figcaption {
+    color: red;
+    margin: 2px solid red;
+  }
+
+  #menu {
+    width: 100%;
+    padding: 0;
+  }
+
+  #menu ul {
+    padding: 0;
+  }
+
+  #menu ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 4%;
+    width: 25%;
+    padding: 0px;
+  }
