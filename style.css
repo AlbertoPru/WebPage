@@ -66,5 +66,6 @@
 
   #menu ul li:hover {
     border-bottom: 1px solid gray;
+    color: blue; 
     /*background-color: red; */
   }
