@@ -32,12 +32,14 @@
   }
 
   figcaption {
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
+    padding-bottom: 2px;
+    text-align: center;
   }
 
   figure:hover figcaption {
-    color: red;
-    margin: 2px solid red;
+    color: rgb(65, 65, 65);
+    border-bottom: 1px dashed rgb(65, 65, 65);
   }
 
   #menu {
@@ -52,6 +54,8 @@
   #menu ul li {
     list-style: none;
     display: inline-block;
+    font-weight: bolder;
+    color: gray;
     text-align: center;
     margin: 0px 4%;
     width: 25%;
