@@ -14,7 +14,7 @@
   }
 
   header {
-    background: rgba(65, 65, 65, 0.7);
+    background: rgba(45, 55, 45, 0.7);
     margin: 0;
     width: 100%;
     text-align: center;
@@ -66,6 +66,6 @@
 
   #menu ul li:hover {
     border-bottom: 1px solid gray;
-    color: blue; 
+    color: blue;
     /*background-color: red; */
   }
