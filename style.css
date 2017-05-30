@@ -14,7 +14,7 @@
   }
 
   header {
-    background: rgba(65, 65, 65, 0.7);
+    background: rgba(45, 55, 45, 0.7);
     margin: 0;
     width: 100%;
     text-align: center;
@@ -49,6 +49,7 @@
 
   #menu ul {
     padding: 0;
+    /*transition-duration: 10s;*/
   }
 
   #menu ul li {
@@ -60,4 +61,11 @@
     margin: 0px 4%;
     width: 25%;
     padding: 0px;
+    transition: 1s;
+  }
+
+  #menu ul li:hover {
+    border-bottom: 1px solid gray;
+    color: blue;
+    /*background-color: red; */
   }
